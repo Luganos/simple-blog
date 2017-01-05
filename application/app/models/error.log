@@ -1,0 +1,27 @@
+2017-01-03 21:03:18 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'n.name' in 'field list'
+2017-01-03 21:34:44 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM news_comment nc ON(nc.news_id = n.news_id)' at line 1
+2017-01-03 21:36:55 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON(nc.news_id = n.news_id)' at line 1
+2017-01-03 21:38:14 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nc.news_id' in 'field list'
+2017-01-03 21:39:10 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nc.news_id' in 'field list'
+2017-01-03 21:40:25 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news_comment.news_id' in 'field list'
+2017-01-03 21:48:26 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'n.news_id' in 'where clause'
+2017-01-03 21:49:12 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news.news_id' in 'where clause'
+2017-01-03 21:54:32 - SQLSTATE[21000]: Cardinality violation: 1222 The used SELECT statements have a different number of columns
+2017-01-03 21:57:09 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FULL OUTER JOIN news_comment nc ON(nc.news_id = n.news_id)' at line 1
+2017-01-03 21:58:26 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN news_comment nc ON(nc.news_id = n.news_id)' at line 1
+2017-01-03 22:02:19 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FULL OUTER JOIN news_comment nc ON(nc.news_id = n.news_id)' at line 1
+2017-01-03 22:03:36 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FULL OUTER JOIN news_comment nc ON(nc.news_id = n.news_id)' at line 1
+2017-01-03 22:05:10 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FULL OUTER JOIN news_comment nc ON(nc.news_id = n.news_id) ORDER BY n.news_id' at line 1
+2017-01-03 22:06:36 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN news_comment nc ON(nc.news_id = n.news_id) ORDER BY n.news_id' at line 1
+2017-01-03 22:09:25 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN news_comment nc ON(nc.news_id = n.news_id) ORDER BY n.news_id' at line 1
+2017-01-03 22:10:38 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN news_comment nc ON(nc.news_id = n.news_id) ORDER BY n.news_id' at line 1
+2017-01-03 22:11:36 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FULL OUTER JOIN news_comment nc ON(nc.news_id = n.news_id) ORDER BY n.news_id' at line 1
+2017-01-03 22:23:32 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nc.news_id' in 'field list'
+2017-01-03 22:43:47 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT OUTER JOIN news_comment nc ON(nc.news_id = n.news_id) ORDER BY n.news_id' at line 1
+2017-01-03 22:51:06 - SQLSTATE[42000]: Syntax error or access violation: 1250 Table 'n' from one of the SELECTs cannot be used in global ORDER clause
+2017-01-03 22:51:40 - SQLSTATE[21000]: Cardinality violation: 1222 The used SELECT statements have a different number of columns
+2017-01-03 22:53:54 - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news_id' in 'order clause'
+2017-01-03 22:54:21 - SQLSTATE[42000]: Syntax error or access violation: 1250 Table 'n' from one of the SELECTs cannot be used in global ORDER clause
+2017-01-04 11:00:09 - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(c.comment_id = nc.comment_id)' at line 1
+2017-01-04 12:54:27 - SQLSTATE[HY000]: General error: 1364 Field 'author_id' doesn't have a default value
+2017-01-04 12:55:48 - SQLSTATE[HY000]: General error: 1364 Field 'author_id' doesn't have a default value

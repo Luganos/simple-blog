@@ -1,0 +1,60 @@
+
+.text{
+font-size:14px;
+}
+
+
+#next, #prev {
+margin-top:-20px;
+width:15px;
+height:26px;
+display:block;
+text-indent:-9999px;
+overflow:hidden;
+cursor:pointer;
+background:url(../images/slider2_arrow.png) no-repeat;
+position:absolute;
+top:50%;
+}
+
+#next {
+right:0px;
+background-position:-15px 0px;
+}
+#next:hover {
+background-position:-15px -26px;
+}
+#prev:hover {
+background-position:0 -26px;
+}
+
+
+
+.viewport{
+    width: 275px;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    display:block;
+    left:150px;
+    top:30px;
+    margin-bottom: 40px;
+}
+.slidewrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 220px;
+    margin: 0;
+    padding: 0;    
+}
+.slide{
+    width: 275px;
+    height: 200px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
