@@ -6,13 +6,13 @@ class Model
     
         protected $db = null;
         
-        protected $host = "localhost";
+        private $host = "localhost";
         
-        protected $user = "root";
+        private $user = "root";
         
-        protected $pass = "123456789";
+        private $pass = "123456789";
         
-        protected $name = "simple-blog";
+        private $name = "simple-blog";
         
          
    public function __construct() 
